@@ -1,0 +1,26 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --verbose --coverage --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghaid01/lab4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghaid01/lab4/issues"
+  },
+  "homepage": "https://github.com/ghaid01/lab4#readme",
+  "dependencies": {
+    "fake": "^0.2.2",
+    "jest": "^25.1.0",
+    "uuid": "^3.4.0"
+  }
+}
