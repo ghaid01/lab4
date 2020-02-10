@@ -35,11 +35,11 @@ describe('Categories Model', () => {
   it('can delete() a category', () => {
     let obj = { name: 'Test Category'};
     return categories.create(obj)
-    .then(record => {
-      Object.keys(obj).forEach(key => {
-        expect(record[key]).toEqual(obj[key]);
+      .then(record => {
+        Object.keys(obj).forEach(key => {
+          expect(record[key]).toEqual(obj[key]);
+        });
       });
-    });
   });
 
 });
